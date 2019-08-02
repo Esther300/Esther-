@@ -1,0 +1,107 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, div, section, a{
+    display: block;
+}
+a {
+    text-decoration: none;
+}
+header {
+    width: 100%;
+    background: grey;
+    display:flex;
+    flex-direction: column;
+}
+ul {
+    list-style: none;
+}
+.mylogo {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+.a {
+    width: 30%;
+}
+.b{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+h2 {
+    color:white;
+    font-size:25px;
+    padding:  12px 10px;
+}
+.konBtn {
+    border:none;
+    background: none;
+    color:white;
+    font-size:25px;
+    padding:  0px 10px;
+}
+nav {
+    display: none;
+}
+.shownav {
+    display: initial;
+}
+nav ul li a{
+    color:white;
+    padding: 10px 16px;
+    text-align: center;
+}
+
+.SectionBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Smallbox {
+    width: 80%;
+    height: 150px;
+    margin: 10px;
+    background: black;
+}
+.ab{
+    text-align: center;
+}
+
+
+@media screen and (min-width:600px){
+    header{
+        flex-direction: row;
+    }
+    .mylogo{
+        width:30%;
+        padding: 10px 10px;
+        justify-content: flex-start;
+    }
+    .konBtn {
+        display: none;
+    }
+    nav {
+        width:70%;
+        display: initial;
+        background-image: url(iss.jpeg);
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .SectionBox {
+        flex-direction: column;
+        justify-content: end;
+        background-image: url(images.jpeg);
+    .Smallbox {
+        width: 95%;
+    }
+    .pix{
+    flex-direction: row;
+    }
+}

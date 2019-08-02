@@ -1,0 +1,21 @@
+body{
+    background: blanchedalmond;
+}
+h1{
+    text-align: center;
+}
+a{
+    padding: 48%;
+}
+.u{
+    background: grey;
+    width: 140%;
+}
+.head{
+    display: flex;
+    height: 70%;
+}
+#bl{
+    text-decoration: none;
+    margin: 0px;
+}

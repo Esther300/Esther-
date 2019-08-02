@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+}
+body{
+    background: rgb(214, 205, 205);
+    background-image: url(IMG_5209.JPG);
+}
+#header{
+background: white;
+display: flex;
+margin-top: 10px; 
+text-align: center;
+width: 100%;
+
+}
+.head{
+    image: center;
+    text-align: center;
+    width: 100%;
+}
+#middle{
+    background: white;
+    margin-top: 10px;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+.name{
+    width: 30%;
+    height: 25px;
+    border-radius: 4px;
+    border-color: grey;
+}
+.pass{
+    margin-top: 10px;
+    width: 30%;
+    height: 25px;
+    border-radius: 4px;
+    border-color:grey;
+}
+.but{
+    margin-top: 10px;
+    border: 4px;
+    color: rgb(255, 255, 255); 
+    background:grey;
+    width: 10%;
+    height: 20px;
+    border-radius: 4px;
+    transition: 1s;
+}
+.but:hover{
+color:grey;
+background: white;
+width: 50px;
+}
+a{
+    text-decoration: none;
+}
+.msg{
+    margin-top: 10px;
+    width: 30%;
+    height: 35px;
+    border-radius: 4px;
+    border-color: grey;
+}
+
